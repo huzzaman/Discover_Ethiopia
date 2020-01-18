@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttractionActivity"
+    android:background="@drawable/terara">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/attract"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <Button
+        android:id="@+id/arch"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="560dp"
+        android:background="@drawable/custom_button"
+        android:text="Archeological"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/nature"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="476dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:text="Natural"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="390dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:text="Historical"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/holy"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="305dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:text="Festival/Holidays"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/unesco"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="218dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:text="Unesco"
+        android:background="@drawable/custom_button"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/museum"
+        android:layout_width="319dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/custom_button"
+        android:text="Museum"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+</RelativeLayout>
