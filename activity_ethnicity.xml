@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_circles"
+    tools:context=".Ethnicity"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar11"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:background="@drawable/ethnic1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="332dp"
+        android:layout_height="396dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="23dp"
+        android:background="@color/yanky"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="138dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Oromo People" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="452dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="
+       Tourist destinations include Ethiopian's collection of national parks (including Semien Mountains National Park), and historic sites, such as the cities of Axum,Lalibela,Gonder,Nejashi Mosque,Sof'Umer Washa, and Harar Jugol.
+ In spite of a long history of promotion and development, Ethiopia's tourism industry is in its initial stages of development.Changes in governance systems have resulted in different social constructions of the role of tourism in national development. The low level of tourism development in the country had been attributed to a number of mitigating circumstances including poor international image and visibility as tourist destination,weak demand among international tour
+  operators and travel agencies,weak local tour operators weak supply chains serving the sector." />
+
+
+
+</RelativeLayout>
